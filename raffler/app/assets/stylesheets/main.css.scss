@@ -2,17 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  background-color: #4B7399;
+  background-color: #4b7399;
   font-family: Verdana, Helvetica, Arial;
   font-size: 14px;
 }
 
-a img {
-  border: none;
-}
-
 a {
-  color: #0000FF;
+  color: #0000ff
+
+  img {
+    border: none;
+  }
 }
 
 .clear {
@@ -24,7 +24,7 @@ a {
 #container {
   width: 600px;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 20px 40px;
   border: solid 1px black;
   margin-top: 20px;
@@ -33,9 +33,11 @@ a {
 form input {
   font-size: 20px;
 }
+
 form input[type='text'] {
   width: 535px;
 }
+
 form input[type='submit'], #draw {
   -webkit-appearance: caret;
   font-size: 14px;
@@ -72,14 +74,15 @@ ul {
   margin: 0;
   padding: 0;
   margin-top: 10px;
-  border-top: solid 1px #CCC;
+  border-top: solid 1px #ccc;
 }
 
 li {
-  border-bottom: solid 1px #CCC;
+  border-bottom: solid 1px #ccc;
   padding: 10px 10px;
   font-size: 16px;
   position: relative;
+
   .winner {
     position: absolute;
     right: 10px;
